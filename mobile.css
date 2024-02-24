@@ -1,0 +1,123 @@
+
+@media screen and (max-width:800px){
+    nav{
+        display: none;
+    }
+    .slide{
+        display: none;
+    }
+    .banner h3,.banner h1{
+        padding: 10px 10px;
+    }
+    .banner h1{
+        font-size:20px ;
+    }
+    .s-nav{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        background-color: aliceblue;
+        width: 100%;
+        font-size: large;
+        color: #ff4712;
+        padding: 20px 0px;
+        z-index: 999;
+        position: fixed;
+        bottom: 0px;
+    }
+    .r{
+        grid-template-columns: 1fr;
+    }
+    
+.games-slide {
+    grid-template-columns: 1fr;
+}
+.food {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.food :nth-child(1) {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.food :nth-child(2) {
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+
+.food :nth-child(3) {
+    grid-column: 1/6;
+    grid-row:3/4 ;
+}
+
+.food :nth-child(4) {
+    grid-column: 1/6;
+    grid-row:4/5 ;
+}
+
+.food :nth-child(5) {
+    grid-column: 1/6;
+    grid-row:5/6 ;
+}
+
+.food :nth-child(6) {
+    grid-column: 1/6;
+    grid-row:6/7;
+}
+
+.food :nth-child(7) {
+    grid-column: 1/6;
+    grid-row: 7/8;
+}
+
+.food :nth-child(8) {
+    grid-column: 1/6;
+    grid-row: 8/9;
+}
+
+
+
+
+/*****************names  */
+.food :nth-child(9) {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.food :nth-child(10) {
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+
+.food :nth-child(11) {
+    grid-column: 1/6;
+    grid-row:3/4 ;
+}
+
+.food :nth-child(12) {
+    grid-column: 1/6;
+    grid-row:4/5 ;
+}
+
+.food :nth-child(13) {
+    grid-column: 1/6;
+    grid-row:5/6 ;
+}
+
+.food :nth-child(14) {
+    grid-column: 1/6;
+    grid-row:6/7;
+}
+
+.food :nth-child(15) {
+    grid-column: 1/6;
+    grid-row: 7/8;
+}
+
+.food :nth-child(16) {
+    grid-column: 1/6;
+    grid-row: 8/9;
+}
+
+}
